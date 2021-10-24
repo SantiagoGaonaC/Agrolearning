@@ -13,14 +13,14 @@ public class Conexion {
     private final String base = "proyecto";
     //private final String base = "agrolearningp2";
     //Usuario de la base de datos
-     private final String user = "admin";
+     private final String user = "USUARIO DE LA BASE DE DATOS";
     //private final String user = "agrolearningAdmin";
     //private final String contraseña = "Mq64!c1I0xS-";
-    private final String contraseña = "Santiago123";
+    private final String contraseña = "CONTRASEÑA DE LA BASE DE DATOS";
     //private final String contraseña = "12345";
     //Donde nos vamos a conectar
     //private final String url = "jdbc:mysql://localhost:" + 3306 + "/" + base;
-   private final String url = "jdbc:mysql://agrolearndb.c6yfxy06ajmg.us-east-1.rds.amazonaws.com:" + 3306 + "/" + base;
+   private final String url = "DIRECCIONAMIENTO DE LA BASE DE DATOS" + 3306 + "/" + base;
      //private final String url = "jdbc:mysql://207.248.81.156:" + 3306 + "/" + base;
     private Connection con = null;
 
